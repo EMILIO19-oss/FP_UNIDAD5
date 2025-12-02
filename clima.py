@@ -3,7 +3,7 @@ import requests
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QVBoxLayout, QPushButton
 from PyQt5.QtCore import Qt
 
-API_KEY = "0946359d9addc45de1a230c3d94ef4d0"
+API_KEY = "0e05650e9ececb62f3cdc1d6cb842be4"
 CITY = "Aguascalientes"
 URL = f"http://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={API_KEY}&units=metric&lang=es"
 
